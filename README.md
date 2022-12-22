@@ -8,3 +8,21 @@ Like my other projects before, I focus on privacy and being ad-free.
 <br>
 <br>
 The game is free to play on https://thedoggybrad.github.io/2048ontheweb/ or at its official shortened link https://cutt.ly/2048ontheweb
+<br>
+<br>
+<br>
+Instructions for the game installation (Works even you are offline)
+<br>
+<br>
+Mobile Browsers (Installation as PWA)
+<br>
+-To install the app, just click the 3 dots (or similar on other browsers) then click Install App. 
+<br>
+<br>
+Desktop Browsers (Installation as PWA)
+<br>
+-To install the app, you may click the share button on the address bar then click the download button
+<br>
+or
+<br>
+-To install the app, click the 3 dots or similar then go to More Tools and click Create Shortcut. Make sure to tick the option "Open in new window" or similar.
