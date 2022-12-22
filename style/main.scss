@@ -32,7 +32,7 @@ html, body {
 }
 
 body {
-  margin: 80px 0; overscroll-behavior-y: none; }
+  margin: 10px 0; overscroll-behavior-y: none; }
 
 .heading {
   @include clearfix;
@@ -58,12 +58,7 @@ h1.title {
   }
 }
 
-.scores-container {
-  float: right;
-  text-align: right;
-}
-
-.score-container, .best-container {
+.score-container, .best-container, .moves-container {
   $height: 25px;
 
   position: relative;
@@ -112,6 +107,10 @@ h1.title {
 .best-container:after {
   content: "Best";
 }
+.moves-container:after {
+  content: "Moves"
+}
+
 
 p {
   margin-top: 0;
@@ -518,7 +517,7 @@ hr {
     margin: 0 auto;
   }
 
-  .score-container, .best-container {
+  .score-container, .best-container, .moves-container {
     margin-top: 0;
     padding: 15px 10px;
     min-width: 40px;
