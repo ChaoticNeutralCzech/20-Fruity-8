@@ -13,13 +13,12 @@ The game is free to play on https://thedoggybrad.github.io/2048ontheweb/ or at i
 <br>
 Instructions for the game installation (Works even you are offline)
 <br>
-<br>
-Mobile Browsers (Installation as PWA)
+*Mobile Browsers (Installation as PWA)
 <br>
 -To install the app, just click the 3 dots (or similar on other browsers) then click Install App. 
 <br>
 <br>
-Desktop Browsers (Installation as PWA)
+*Desktop Browsers (Installation as PWA)
 <br>
 -To install the app, you may click the share button on the address bar then click the download button
 <br>
