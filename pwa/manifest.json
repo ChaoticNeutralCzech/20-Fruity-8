@@ -1,6 +1,7 @@
 {
   "short_name": "2048",
   "name": "2048",
+  "description": "The Classic 2048 is now on the web but with a few improvements.",
   "icons": [
     {
       "src": "https://thedoggybrad.github.io/2048ontheweb/meta/2048-rounded-96.png",
@@ -28,8 +29,8 @@
       "type": "image/png"
     }
   ],
-  "start_url": "/",
-  "display": "standalone",
+  "start_url": "https://thedoggybrad.github.io/2048ontheweb/index.html",
+  "display": "fullscreen",
   "background_color": "#ECC402",
   "orientation": "portrait"
 }
