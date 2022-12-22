@@ -224,7 +224,8 @@ hr {
         @include button;
         margin-left: 9px;
         // margin-top: 59px;
-
+ 
+    &.keep-playing-button,
 	  &.confirm-button,
           &.cancel-button {
 	  display: none;
@@ -262,8 +263,9 @@ hr {
           }
         }
       }
-	  }
+    }
        }
+  }
 
   .grid-container {
     position: absolute;
@@ -308,7 +310,7 @@ hr {
     &, .tile-inner {
       width: ceil($tile-size);
       height: ceil($tile-size);
-      line-height: ceil($tile-size);
+      line-height: $tile-size + 10px;
     }
 
     // Build position classes
