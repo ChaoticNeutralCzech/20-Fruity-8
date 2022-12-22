@@ -11,7 +11,7 @@ The game is free to play on https://thedoggybrad.github.io/2048ontheweb/ or at i
 <br>
 <br>
 <br>
-##Instructions for the PWA game installation (Works even you are offline)
+## Instructions for the PWA game installation (Works even you are offline)
 <br>
 1.) Mobile Browsers
 <br>
