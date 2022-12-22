@@ -20,20 +20,28 @@
   <script src="pwa/service_worker_main.js"></script>
 </head>
 <body>
+
   <div class="container">
     <div class="heading">
       <h1 class="title">2048</h1>
       <div class="scores-container">
-        <div class="score-container">0</div>
-        <div class="best-container">0</div>
       </div>
     </div>
+
 
     <div class="above-game">
       <p class="game-intro">Good luck to reach the <strong>2048 tile!</strong></p>
       <a class="restart-button">New Game</a>
     </div>
 	 
+<center>
+        <div class="scores-container">
+        <div class="score-container">0</div>
+        <div class="best-container">0</div>
+       <div class="moves-container">0</div>
+       </div>
+</center>
+
 
     <div class="game-container">
       <div class="game-message">
@@ -109,7 +117,7 @@
   }
 </style>
 <br />
-<br />
+
 <center>
 <button class="button button2" onclick="myalert()">
 	How to play?
@@ -122,7 +130,6 @@
 </script>
 </div>
 
-<br />
 <br />
 <center><footer>
   <p>©<a href="https://github.com/thedoggybrad/">TheDoggyBrad</a>. Provided under <a href="https://github.com/thedoggybrad/2048ontheweb/blob/master/LICENSE.txt">ISC License</a>.</p>
