@@ -7,4 +7,4 @@ Some fixes and feature changes from other forgotten pull request from the upstre
 Like my other projects before, I focus on privacy and being ad-free.
 <br>
 <br>
-The game is free to play on https://thedoggybrad.github.io/2048ontheweb/
+The game is free to play on https://thedoggybrad.github.io/2048ontheweb/ or at its official shortened link https://cutt.ly/2048ontheweb
