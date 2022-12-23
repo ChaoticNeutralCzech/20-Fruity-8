@@ -18,6 +18,7 @@ const resourceList = [
   'https://thedoggybrad.github.io/2048ontheweb/style/fonts/ClearSans-Regular-webfont.eot',
   'https://thedoggybrad.github.io/2048ontheweb/style/fonts/ClearSans-Regular-webfont.svg',
   'https://thedoggybrad.github.io/2048ontheweb/style/fonts/ClearSans-Regular-webfont.woff',
+  'https://thedoggybrad.github.io/2048ontheweb/js/howtoplay.js',
   'https://thedoggybrad.github.io/2048ontheweb/js/animframe_polyfill.js',
   'https://thedoggybrad.github.io/2048ontheweb/js/application.js',
   'https://thedoggybrad.github.io/2048ontheweb/js/bind_polyfill.js',
