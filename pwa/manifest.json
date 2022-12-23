@@ -29,7 +29,7 @@
       "type": "image/png"
     }
   ],
-  "start_url": "https://thedoggybrad.github.io/2048ontheweb/index.html",
+  "start_url": "index.html",
   "display": "standalone",
   "background_color": "#ECC402",
   "theme_color": "#ECC402",
