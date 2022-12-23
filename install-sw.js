@@ -28,7 +28,13 @@ let urlsToCache = [
   'meta/apple-touch-icon_96.png',
   'meta/apple-touch-icon_144.png',
   'meta/apple-touch-startup-image-640x920.png',
-  'meta/apple-touch-startup-image-640x1096.png'
+  'meta/apple-touch-startup-image-640x1096.png',
+  'register-sw.js'
+  'install-sw.js'
+  'fetch-sw.js'
+  'activate-sw.js'
+  'sw.js'
+  'manifest.json'
 
     ];
 
