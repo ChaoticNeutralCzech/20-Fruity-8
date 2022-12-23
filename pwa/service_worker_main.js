@@ -7,7 +7,8 @@ const resourceList = [
   'https://thedoggybrad.github.io/2048ontheweb/index.html',
   'https://thedoggybrad.github.io/2048ontheweb/favicon.ico',
   'https://thedoggybrad.github.io/2048ontheweb/style/main.css',
-  'https://thedoggybrad.github.io/2048ontheweb/style/howtoplay.css'
+  'https://thedoggybrad.github.io/2048ontheweb/style/howtoplay.css',
+  'https://thedoggybrad.github.io/2048ontheweb/style/disabletextselection.css',
   'https://thedoggybrad.github.io/2048ontheweb/style/fonts/clear-sans.css',
   'https://thedoggybrad.github.io/2048ontheweb/style/fonts/ClearSans-Bold-webfont.eot',
   'https://thedoggybrad.github.io/2048ontheweb/style/fonts/ClearSans-Bold-webfont.svg',
@@ -29,6 +30,7 @@ const resourceList = [
   'https://thedoggybrad.github.io/2048ontheweb/js/keyboard_input_manager.js',
   'https://thedoggybrad.github.io/2048ontheweb/js/local_storage_manager.js',
   'https://thedoggybrad.github.io/2048ontheweb/js/tile.js',
+  'https://thedoggybrad.github.io/2048ontheweb/js/disablecontextmenu.js',
   'https://thedoggybrad.github.io/2048ontheweb/meta/apple-touch-icon.png',
   'https://thedoggybrad.github.io/2048ontheweb/meta/apple-touch-icon_96.png',
   'https://thedoggybrad.github.io/2048ontheweb/meta/apple-touch-icon_144.png',
