@@ -1,6 +1,6 @@
 {
-  "short_name": "2048",
   "name": "2048",
+  "short_name": "2048",
   "description": "The Classic 2048 is now on the web but with a few improvements.",
   "icons": [
     {
