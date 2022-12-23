@@ -7,6 +7,7 @@ const resourceList = [
   'https://thedoggybrad.github.io/2048ontheweb/index.html',
   'https://thedoggybrad.github.io/2048ontheweb/favicon.ico',
   'https://thedoggybrad.github.io/2048ontheweb/style/main.css',
+  'https://thedoggybrad.github.io/2048ontheweb/style/howtoplay.css'
   'https://thedoggybrad.github.io/2048ontheweb/style/fonts/clear-sans.css',
   'https://thedoggybrad.github.io/2048ontheweb/style/fonts/ClearSans-Bold-webfont.eot',
   'https://thedoggybrad.github.io/2048ontheweb/style/fonts/ClearSans-Bold-webfont.svg',
