@@ -5,9 +5,9 @@
     "theme_color": "#FAF8EF",
     "background_color": "#FAF8EF",
     "display": "standalone",
-    "scope": "/",
+    "scope": "https://thedoggybrad.github.io/2048ontheweb/",
     "orientation": "portrait",
-    "start_url": "/",
+    "start_url": "https://thedoggybrad.github.io/2048ontheweb/",
     "icons": [
     {
       "src": "meta/2048-rounded-96.png",
