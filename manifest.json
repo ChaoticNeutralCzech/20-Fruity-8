@@ -5,32 +5,31 @@
     "theme_color": "#FAF8EF",
     "background_color": "#FAF8EF",
     "display": "standalone",
-    "scope": "https://thedoggybrad.github.io/2048ontheweb/",
     "orientation": "portrait",
-    "start_url": "https://thedoggybrad.github.io/2048ontheweb/",
+    "start_url": "index.html",
     "icons": [
     {
-      "src": "https://thedoggybrad.github.io/2048ontheweb/meta/2048-rounded-96.png",
+      "src": "meta/2048-rounded-96.png",
       "sizes": "96x96",
       "type": "image/png"
     },
     {
-      "src": "https://thedoggybrad.github.io/2048ontheweb/meta/2048-rounded-144.png",
+      "src": "meta/2048-rounded-144.png",
       "sizes": "144x144",
       "type": "image/png"
     },
     {
-      "src": "https://thedoggybrad.github.io/2048ontheweb/meta/2048-rounded-192.png",
+      "src": "meta/2048-rounded-192.png",
       "sizes": "192x192",
       "type": "image/png"
     },
     {
-      "src": "https://thedoggybrad.github.io/2048ontheweb/meta/2048-rounded-256.png",
+      "src": "meta/2048-rounded-256.png",
       "sizes": "256x256",
       "type": "image/png"
     },
     {
-      "src": "https://thedoggybrad.github.io/2048ontheweb/meta/2048-rounded-512.png",
+      "src": "meta/2048-rounded-512.png",
       "sizes": "512x512",
       "type": "image/png"
     }
