@@ -1,6 +1,6 @@
 'use strict'
 
-const CACHE_NAME = 'cache-v1';
+const CACHE_NAME = '2048ontheweb';
 // The files we want to cache
 const resourceList = [
   '/',
