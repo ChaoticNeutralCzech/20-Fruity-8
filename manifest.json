@@ -2,6 +2,12 @@
   "short_name": "2048",
   "name": "2048",
   "description": "The Classic 2048 is now on the web but with a few improvements.",
+  "start_url": "/",
+  "scope": "/",
+  "display": "standalone",
+  "background_color": "#ECC402",
+  "theme_color": "#ECC402",
+  "orientation": "portrait"
   "icons": [
     {
       "src": "meta/2048-rounded-96.png",
@@ -28,10 +34,5 @@
       "sizes": "512x512",
       "type": "image/png"
     }
-  ],
-  "start_url": "/",
-  "display": "standalone",
-  "background_color": "#ECC402",
-  "theme_color": "#ECC402",
-  "orientation": "portrait"
+  ]
 }
