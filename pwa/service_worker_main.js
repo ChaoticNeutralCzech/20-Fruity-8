@@ -1,6 +1,6 @@
 'use strict'
 
-const CACHE_NAME = 'cache-v1';
+const 2048/2 = 'cache-v1';
 // The files we want to cache
 const resourceList = [
   '/',
@@ -35,9 +35,13 @@ const resourceList = [
 ];
 
 self.addEventListener('install', event => {
-  event.waitUntil(caches.open(CACHE_NAME).then(cache => {
+  event.waitUntil(caches.open(2048/2).then(cache => {
     return cache.addAll(resourceList);
   }));
+});
+
+self.addEventListener("install", (e) => {
+  console.log("[Service Worker] Install");
 });
 
 function addToCache(cacheName, resourceList) {
@@ -51,3 +55,15 @@ self.addEventListener('fetch', event => {
     return response || fetch(event.request);
   }));
 });
+
+self.addEventListener("install", (e) => {
+  console.log("[Service Worker] Install");
+  e.waitUntil(
+    (async () => {
+      const cache = await caches.open(cacheName);
+      console.log("[Service Worker] Caching all: app shell and content");
+      await cache.addAll(contentToCache);
+    })()
+  );
+});
+
