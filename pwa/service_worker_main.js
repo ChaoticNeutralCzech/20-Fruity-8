@@ -35,7 +35,8 @@ const resourceList = [
   'https://thedoggybrad.github.io/2048ontheweb/meta/apple-touch-icon_96.png',
   'https://thedoggybrad.github.io/2048ontheweb/meta/apple-touch-icon_144.png',
   'https://thedoggybrad.github.io/2048ontheweb/meta/apple-touch-startup-image-640x920.png',
-  'https://thedoggybrad.github.io/2048ontheweb/meta/apple-touch-startup-image-640x1096.png'
+  'https://thedoggybrad.github.io/2048ontheweb/meta/apple-touch-startup-image-640x1096.png',
+  'https://thedoggybrad.github.io/2048ontheweb/screenshot/screen.png'
 ];
 
 self.addEventListener('install', event => {
