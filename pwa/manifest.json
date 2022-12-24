@@ -36,7 +36,7 @@
   "orientation": "portrait",
   "screenshots": [
     {
-      "src": "screenshot/screen.png",
+      "src": "https://thedoggybrad.github.io/2048ontheweb/screenshot/screen.png",
       "type": "image/png",
       "sizes": "986x1952"
      }
