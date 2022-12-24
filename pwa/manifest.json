@@ -34,4 +34,9 @@
   "background_color": "#ECC402",
   "background_color": "#ECC402",
   "orientation": "portrait"
+  "screenshots": [
+    {
+      "src": "screenshot/screen.png",
+      "type": "image/png",
+      "sizes": "986x1952"
 }
