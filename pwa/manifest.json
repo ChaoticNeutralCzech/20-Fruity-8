@@ -40,15 +40,15 @@
       "type": "image/png",
       "sizes": "986x1952"
      },
-   {
+     {
       "src": "https://thedoggybrad.github.io/2048ontheweb/screenshot/infobox.png",
       "type": "image/png",
       "sizes": "1053x1996"
-   },
-  {
+     },
+     {
       "src": "https://thedoggybrad.github.io/2048ontheweb/screenshot/starter.png",
       "type": "image/png",
       "sizes": "985x1784"
- }
+     }
   ]
 }
