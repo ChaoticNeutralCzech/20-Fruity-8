@@ -23,3 +23,9 @@ The game is free to play on https://thedoggybrad.github.io/2048ontheweb/ or at i
 or
 <br>
 -To install the app, click the 3 dots or similar then go to More Tools and click Create Shortcut. Make sure to tick the option "Open in new window" or similar.
+<br>
+<br>
+## Screenshots
+![Gameplay](https://thedoggybrad.github.io/2048ontheweb/screenshot/screen.png)
+![How to play?](https://thedoggybrad.github.io/2048ontheweb/screenshot/infobox.png)
+![Start a new game](https://thedoggybrad.github.io/2048ontheweb/screenshot/starter.png)
