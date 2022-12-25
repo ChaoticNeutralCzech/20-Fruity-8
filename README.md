@@ -1,4 +1,4 @@
-<center>![Icon](https://thedoggybrad.github.io/2048ontheweb/meta/2048-rounded-144.png)</center>
+![Icon](https://thedoggybrad.github.io/2048ontheweb/meta/2048-rounded-144.png)<align="center">
 # 2048 on the Web
 It is a fork of the original 2048 game and this version is hosted on Github and has no disturbing ads.
 <br>
