@@ -25,6 +25,10 @@ or
 -To install the app, click the 3 dots or similar then go to More Tools and click Create Shortcut. Make sure to tick the option "Open in new window" or similar.
 <br>
 <br>
+## How to play?
+Swipe using your touchscreen mobile device and use the keyboard arrow keys on your PC/Laptop. Tiles with the same number merge into one when they touch. Add them up until you reach 2048!
+<br>
+<br>
 ## Screenshots
 ![Gameplay](https://thedoggybrad.github.io/2048ontheweb/screenshot/screen.png)
 ![How to play?](https://thedoggybrad.github.io/2048ontheweb/screenshot/infobox.png)
