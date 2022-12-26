@@ -31,6 +31,6 @@ Swipe using your touchscreen mobile device and use the keyboard arrow keys on yo
 <br>
 <br>
 ## Screenshots
-![Gameplay](https://thedoggybrad.github.io/2048ontheweb/screenshot/screen.png)
-![How to play?](https://thedoggybrad.github.io/2048ontheweb/screenshot/infobox.png)
-![Start a new game](https://thedoggybrad.github.io/2048ontheweb/screenshot/starter.png)
+![Gameplay](https://thedoggybrad.github.io/2048ontheweb/screenshot/1.png)
+![How to play?](https://thedoggybrad.github.io/2048ontheweb/screenshot/2.png)
+![Start a new game](https://thedoggybrad.github.io/2048ontheweb/screenshot/3.png)
