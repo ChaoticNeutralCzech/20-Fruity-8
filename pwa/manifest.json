@@ -36,19 +36,19 @@
   "orientation": "portrait",
   "screenshots": [
     {
-      "src": "https://thedoggybrad.github.io/2048ontheweb/screenshot/screen.png",
+      "src": "https://thedoggybrad.github.io/2048ontheweb/screenshot/1.png",
       "type": "image/png",
-      "sizes": "986x1952"
+      "sizes": "586x1041"
      },
      {
-      "src": "https://thedoggybrad.github.io/2048ontheweb/screenshot/infobox.png",
+      "src": "https://thedoggybrad.github.io/2048ontheweb/screenshot/2.png",
       "type": "image/png",
-      "sizes": "1053x1996"
+      "sizes": "586x1041"
      },
      {
-      "src": "https://thedoggybrad.github.io/2048ontheweb/screenshot/starter.png",
+      "src": "https://thedoggybrad.github.io/2048ontheweb/screenshot/3.png",
       "type": "image/png",
-      "sizes": "985x1784"
+      "sizes": "586x1041"
      }
   ]
 }
