@@ -10,7 +10,7 @@ const resourceList = [
   'https://thedoggybrad.github.io/2048ontheweb/style/fonts/clear-sans.css',
   'https://thedoggybrad.github.io/2048ontheweb/style/fonts/ClearSans-Bold-webfont.eot',
   'https://thedoggybrad.github.io/2048ontheweb/style/fonts/ClearSans-Bold-webfont.svg',
-  'https://thedoggybrad.github.io/2048ontheweb/style/fonts/ClearSans-Bold-webfont.woff'
+  'https://thedoggybrad.github.io/2048ontheweb/style/fonts/ClearSans-Bold-webfont.woff',
   'https://thedoggybrad.github.io/2048ontheweb/style/fonts/ClearSans-Light-webfont.eot',
   'https://thedoggybrad.github.io/2048ontheweb/style/fonts/ClearSans-Light-webfont.svg',
   'https://thedoggybrad.github.io/2048ontheweb/style/fonts/ClearSans-Light-webfont.woff',
@@ -22,7 +22,7 @@ const resourceList = [
   'https://thedoggybrad.github.io/2048ontheweb/meta/apple-touch-icon_96.png',
   'https://thedoggybrad.github.io/2048ontheweb/meta/apple-touch-icon_144.png',
   'https://thedoggybrad.github.io/2048ontheweb/meta/apple-touch-startup-image-640x920.png',
-  'https://thedoggybrad.github.io/2048ontheweb/meta/apple-touch-startup-image-640x1096.png',
+  'https://thedoggybrad.github.io/2048ontheweb/meta/apple-touch-startup-image-640x1096.png'
 ];
 
 self.addEventListener('install', event => {
