@@ -5,7 +5,7 @@ It is a fork of the original 2048 game and this version is hosted on Github and 
 Some fixes and feature changes from other forgotten pull request from the upstream are implemented here.
 <br>
 <br>
-Like my other projects before, I focus on privacy and being ad-free.
+This version of 2048 has some changes to the original game with the assurance that you are private and safe while playing the game. No Google Analytics and it does not contain adware, malware or spyware.
 <br>
 <br>
 The game is free to play on https://thedoggybrad.github.io/2048ontheweb/ or at its official shortened link https://cutt.ly/2048ontheweb
