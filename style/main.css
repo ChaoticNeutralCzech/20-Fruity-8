@@ -813,7 +813,7 @@ hr {
 .modal {
   display: none; /* Hidden by default */
   position: fixed; /* Stay in place */
-  z-index: 1; /* Sit on top */
+
   left: 0;
   top: 0;
   width: 100%; /* Full width */
@@ -826,7 +826,6 @@ hr {
   animation-name: fadeIn;
   animation-duration: 0.4s;
   padding-top: 100px; /* Location of the box */
-  position: relative
 }
 
 /* Modal Content */
@@ -837,7 +836,6 @@ hr {
   background-color: #fce3b3;
     border: 1px solid #888;  
     width: 80%;
-  position: relative
 }
 
 /* The Close Button */
