@@ -809,9 +809,12 @@ hr {
   margin-top: 0px; 
   font-size: 16px;
   text-align: center;
+  font-weight : bold ;
+  margin: 0;
+  position: absolute;
   top: 50%;
   left: 50%;
-  font-weight : bold ;}
+  }
 
 /* The Modal (background) */
 .modal {
