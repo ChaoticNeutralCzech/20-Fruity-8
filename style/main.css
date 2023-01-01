@@ -810,10 +810,6 @@ hr {
   font-size: 16px;
   text-align: center;
   font-weight : bold ;
-  margin: 0;
-  position: absolute;
-  top: 50%;
-  left: 50%;
   }
 
 /* The Modal (background) */
