@@ -806,7 +806,9 @@ hr {
   line-height: 50px;
   display: block;
   text-align: center;
-  margin-top: 0px; }
+  margin-top: 0px; 
+  font-size: 16px;
+  font-weight : bold ;}
 
 /* The Modal (background) */
 .modal {
