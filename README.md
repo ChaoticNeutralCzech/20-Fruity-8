@@ -31,8 +31,6 @@ Swipe using your touchscreen mobile device and use the keyboard arrow keys on yo
 <br>
 <br>
 ## Screenshots
-Note: This screenshots are outdated, but the only difference was the addition of the words "Based on the original 2048 game by Gabriele Circulli" in the footer. There are no UI or functionality changes since the screenshot shown below. I do not have just the time to update it.
-<br><br>
 ![Gameplay](https://thedoggybrad.github.io/2048ontheweb/screenshot/a.jpg)
 ![How to play?](https://thedoggybrad.github.io/2048ontheweb/screenshot/c.jpg)
 ![Start a new game](https://thedoggybrad.github.io/2048ontheweb/screenshot/b.jpg)
