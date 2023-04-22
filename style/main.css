@@ -885,6 +885,15 @@ hr {
   to {opacity: 1}
 }
 
+.scores-container {display: flex;justify-content: center;align-items: center;height: 60px;}
+.best-container {margin-left: 10px;}
+.moves-container {margin-left: 10px;}
+
+.meon {  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 60px;
+}
 
 * {
     -webkit-user-select: none;
