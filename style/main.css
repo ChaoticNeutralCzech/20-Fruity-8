@@ -62,7 +62,7 @@ h1.title {
   text-align: center;
   float: right;
   box-sizing: border-box;
-  margin-top: 0px; }
+  margin-top: 0; }
 
 .score-container, .best-container, .moves-container {
   position: relative;
@@ -94,7 +94,6 @@ h1.title {
     font-size: 25px;
     line-height: 25px;
     font-weight: bold;
-    color: rgba(119, 110, 101, 0.9);
     z-index: 100;
     -webkit-animation: move-up 600ms ease-in;
     -moz-animation: move-up 600ms ease-in;
@@ -800,11 +799,9 @@ hr {
   color: #f9f6f2;
   height: 50px;
   line-height: 50px;
-  display: block;
   text-align: center;
   margin-top: 0px; 
   font-size: 16px;
-  text-align: center;
   font-weight : bold ;
   }
 
