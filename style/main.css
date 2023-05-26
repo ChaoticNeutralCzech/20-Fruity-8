@@ -22,8 +22,8 @@ h1.title {
   margin: 0;
   display: block;
   float: left;
-  color: #8f7a66; }
-  }
+  color: #8f7a66;
+  margin-top: 15px; }
 
 @-webkit-keyframes move-up {
   0% {
@@ -59,7 +59,6 @@ h1.title {
   color: #f9f6f2;
   height: 40px;
   line-height: 42px;
-  display: block;
   text-align: center;
   float: right;
   box-sizing: border-box;
@@ -559,9 +558,6 @@ hr {
     margin: 20px 0;
     padding: 0 20px; }
 
-  h1.title {
-    font-size: 27px;
-    margin-top: 15px; }
 
   .container {
     width: 280px;
