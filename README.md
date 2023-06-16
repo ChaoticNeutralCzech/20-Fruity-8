@@ -1,8 +1,8 @@
 <img src="https://thedoggybrad.github.io/2048ontheweb/meta/2048-rounded-144.png" alt="LOGO" width="96"  height="96">
 
 # 2048 on the Web
-<a href="https://thedoggybrad.github.io/2048ontheweb"><img src="https://thedoggybrad.github.io/2048ontheweb/screenshots.jpg" alt="LOGO"></a><br>
-It is a fork of the original 2048 game and this version is hosted on Github and has no disturbing ads.
+<a href="https://thedoggybrad.github.io/2048ontheweb"><img src="https://thedoggybrad.github.io/2048ontheweb/screenshots.jpg" alt="LOGO"></a>
+<br>It is a fork of the original 2048 game and this version is hosted on Github and has no disturbing ads.
 <br>
 Some fixes and feature changes from other forgotten pull request from the upstream are implemented here.
 <br>
