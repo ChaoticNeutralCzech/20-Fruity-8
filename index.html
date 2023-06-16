@@ -3,17 +3,17 @@
 <head>
   <meta charset="utf-8">
   <title>2048 on the Web - TheDoggyBrad</title>
-  <link rel="preload" href="https://thedoggybrad.github.io/2048ontheweb/game.js" as="script">
-  <link rel="preload" href="https://thedoggybrad.github.io/2048ontheweb/style/main.css" as="style">
-  <link rel="preload" href="https://thedoggybrad.github.io/2048ontheweb/style/fonts/clear-sans.css" as="style">
-  <link rel="stylesheet" href="https://thedoggybrad.github.io/2048ontheweb/style/main.css" type="text/css">
-  <link rel="stylesheet" href="https://thedoggybrad.github.io/2048ontheweb/style/fonts/clear-sans.css" type="text/css">
-  <link rel="shortcut icon" href="https://thedoggybrad.github.io/2048ontheweb/favicon.ico">
-  <link rel="icon" href="https://thedoggybrad.github.io/2048ontheweb/favicon.ico">
-  <link rel="apple-touch-icon" href="https://thedoggybrad.github.io/2048ontheweb/meta/apple-touch-icon.png">
-  <link rel="apple-touch-startup-image" href="https://thedoggybrad.github.io/2048ontheweb/meta/apple-touch-startup-image-640x1096.png">
-  <link rel="apple-touch-startup-image" href="https://thedoggybrad.github.io/2048ontheweb/meta/apple-touch-startup-image-640x920.png">
-  <link rel="manifest" href="https://thedoggybrad.github.io/2048ontheweb/pwa/manifest.json">
+  <link rel="preload" href="game.js" as="script">
+  <link rel="preload" href="style/main.css" as="style">
+  <link rel="preload" href="style/fonts/clear-sans.css" as="style">
+  <link rel="stylesheet" href="style/main.css" type="text/css">
+  <link rel="stylesheet" href="style/fonts/clear-sans.css" type="text/css">
+  <link rel="shortcut icon" href="favicon.ico">
+  <link rel="icon" href="favicon.ico">
+  <link rel="apple-touch-icon" href="meta/apple-touch-icon.png">
+  <link rel="apple-touch-startup-image" href="meta/apple-touch-startup-image-640x1096.png">
+  <link rel="apple-touch-startup-image" href="meta/apple-touch-startup-image-640x920.png">
+  <link rel="manifest" href="pwa/manifest.json">
   <meta name="apple-mobile-web-app-capable" content="yes">
   <meta name="apple-mobile-web-app-status-bar-style" content="black">
   <meta name="apple-mobile-web-app-title" content="2048">
@@ -28,6 +28,7 @@
 <body>
 
   <div class="container">
+   <a class="restart-button">New Game</a>
     <div class="heading">
       <h1 class="title">2048</h1>
       <div class="scores-container">
@@ -36,8 +37,7 @@
 
 
     <div class="above-game">
-      <p class="game-intro">Good luck to reach the <strong>2048 tile!</strong></p>
-      <a class="restart-button">New Game</a>
+      <p class="game-intro">An improved version of the classic <strong>2048</strong>!</p>
     </div>
 	 
         <div class="scores-container">
@@ -51,10 +51,10 @@
       <div class="game-message">
         <p></p>
         <div class="lower">
-	        <a class="keep-playing-button">Keep going</a>
+	  <a class="keep-playing-button">Continue</a>
           <a class="retry-button">Try again</a>
-	  <a class="confirm-button">OK</a>
-          <a class="cancel-button">Cancel</a>
+	  <a class="confirm-button">Yes</a>
+          <a class="cancel-button">No</a>
         </div>
       </div>
 
@@ -108,15 +108,14 @@
     	</div>
     </div>
 </div>
-
-<br>
+<br><br>
 <div class="footer">
 <footer>
-  <p>©<a href="https://github.com/thedoggybrad/">TheDoggyBrad</a>. Provided under <a href="https://github.com/thedoggybrad/2048ontheweb/blob/master/LICENSE.txt">ISC License</a>. Based on the <a href="https://github.com/gabrielecirulli/2048">original 2048 game</a> by Gabriele Cirulli.</p>
+  <p>©<a href="https://github.com/thedoggybrad/">TheDoggyBrad</a>. Provided under <a href="https://github.com/thedoggybrad/2048ontheweb/blob/master/LICENSE.txt">ISC License</a>. <br>Based on the <a href="https://github.com/gabrielecirulli/2048">original 2048 game</a> by Gabriele Cirulli.</p>
 	</footer></div>
 
-  <script src="https://thedoggybrad.github.io/2048ontheweb/game.js"></script>
-  <script src="https://thedoggybrad.github.io/2048ontheweb/pwa/service_worker_check.js"></script>
-  <script src="https://thedoggybrad.github.io/2048ontheweb/pwa/service_worker_main.js"></script>
+  <script src="game.js"></script>
+  <script src="pwa/service_worker_check.js"></script>
+  <script src="pwa/service_worker_main.js"></script>
 </body>
 </html>
