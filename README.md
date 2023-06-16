@@ -1,5 +1,6 @@
 ![Icon](https://thedoggybrad.github.io/2048ontheweb/meta/2048-rounded-144.png)
 # 2048 on the Web
+![Gameplay](https://thedoggybrad.github.io/2048ontheweb/screenshots.jpg)
 It is a fork of the original 2048 game and this version is hosted on Github and has no disturbing ads.
 <br>
 Some fixes and feature changes from other forgotten pull request from the upstream are implemented here.
@@ -30,5 +31,3 @@ or
 Swipe using your touchscreen mobile device and use the keyboard arrow keys on your PC/Laptop. Tiles with the same number merge into one when they touch. Add them up until you reach 2048!
 <br>
 <br>
-## Screenshots (Simulated Samsung Galaxy S8)
-![Gameplay](https://thedoggybrad.github.io/2048ontheweb/screenshots.jpg)
