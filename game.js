@@ -963,6 +963,12 @@ window.requestAnimationFrame(function() {
 	new GameManager(4, KeyboardInputManager, HTMLActuator, LocalStorageManager);
 });
 
+window.addEventListener("contextmenu", function(e) {
+	e.preventDefault();
+});
+
+
+
 
 // Get the modal
 var modal = document.getElementById("myModal");
