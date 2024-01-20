@@ -325,12 +325,12 @@ HTMLActuator.prototype.addTile = function(tile) {
 	// We can't use classlist because it somehow glitches when replacing classes
 	var classes = ["tile", "tile-" + tile.value, positionClass];
 
-	if (tile.value > 2048) classes.push("tile-super");
+	if (tile.value > 11) classes.push("tile-super");
 
 	this.applyClasses(wrapper, classes);
 
 	inner.classList.add("tile-inner");
-	inner.textContent = tile.value;
+	inner.innerHTML = "<img class=\"fruitpic\" src=\"style/pics/level" + tile.value + ".png\">";
 
 	if (tile.previousPosition) {
 		// Make sure that the tile gets rendered in the previous position first
@@ -726,7 +726,7 @@ GameManager.prototype.addStartTiles = function() {
 // Adds a tile in a random position
 GameManager.prototype.addRandomTile = function() {
 	if (this.grid.cellsAvailable()) {
-		var value = Math.random() < 0.9 ? 2 : 4;
+		var value = Math.floor(1+Math.random()*3);
 		var tile = new Tile(this.grid.randomAvailableCell(), value);
 
 		this.grid.insertTile(tile);
@@ -817,7 +817,7 @@ GameManager.prototype.move = function(direction) {
 
 				// Only one merger per row traversal?
 				if (next && next.value === tile.value && !next.mergedFrom) {
-					var merged = new Tile(positions.next, tile.value * 2);
+					var merged = new Tile(positions.next, tile.value + 1);
 					merged.mergedFrom = [tile, next];
 
 					self.grid.insertTile(merged);
@@ -825,12 +825,12 @@ GameManager.prototype.move = function(direction) {
 
 					// Converge the two tiles' positions
 					tile.updatePosition(positions.next);
-
+					const scoreList = [0,0,1,5,15,25,50,75,100,125,130,150];
 					// Update the score
-					self.score += merged.value;
+					self.score += scoreList[merged.value];
 
-					// The mighty 2048 tile
-					if (merged.value === 2048) self.won = true;
+					// The mighty jackfruit
+					if (merged.value === 11) self.won = true;
 				} else {
 					self.moveTile(tile, positions.farthest);
 				}
