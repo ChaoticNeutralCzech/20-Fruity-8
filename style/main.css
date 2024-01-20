@@ -1,13 +1,15 @@
-@font-face{font-family:"Swansea";src:url("fonts/Swansea.ttf");}
-@font-face{font-family:"Swansea";src:url("fonts/SwanseaBold.ttf");font-weight:bold;}
+@font-face{font-family:"Milford";src:url("fonts/Milford.ttf");}
+@font-face{font-family:"Milford";src:url("fonts/MilfordBold.ttf");font-weight:bold;}
 
+@font-face{font-family:"HelveticaNeue";src:url("fonts/HelveticaNeue.otf");}
+@font-face{font-family:"HelveticaNeue";src:url("fonts/HelveticaNeueBold.ttf");font-weight:bold;}
 
 html, body {
   margin: 0;
   padding: 0;
   background: #eec39a;
   color: #8f563b;
-  font-family: Swansea, Arial, sans-serif;
+  font-family: Milford, Impact, Arial, sans-serif;
   font-size: 18px; }
 
 body {
@@ -73,6 +75,7 @@ h1.title {
   background: #bbada0;
   padding: 15px 25px;
   font-size: 25px;
+  font: HelveticaNeue, Arial, sans-serif; 
   height: 25px;
   line-height: 47px;
   font-weight: bold;
