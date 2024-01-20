@@ -1,9 +1,13 @@
+@font-face{font-family:"Swansea";src:url("fonts/Swansea.ttf");}
+@font-face{font-family:"Swansea";src:url("fonts/SwanseaBold.ttf");font-weight:bold;}
+
+
 html, body {
   margin: 0;
   padding: 0;
-  background: #fce3b3;
-  color: #776e65;
-  font-family: "Clear Sans", "Helvetica Neue", Arial, sans-serif;
+  background: #eec39a;
+  color: #8f563b;
+  font-family: Swansea, Arial, sans-serif;
   font-size: 18px; }
 
 body {
@@ -21,7 +25,7 @@ h1.title {
   margin: 0;
   display: block;
   float: left;
-  color: #8f7a66;
+  color: #8f563b;
   margin-top: 15px; }
 
 @-webkit-keyframes move-up {
@@ -51,7 +55,7 @@ h1.title {
 
 .restart-button {
   display: inline-block;
-  background: #8f7a66;
+  background: #8f563b;
   border-radius: 3px;
   padding: 0 20px;
   text-decoration: none;
