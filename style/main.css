@@ -1,5 +1,5 @@
-@font-face{font-family:"Milford";src:url("fonts/Milford.ttf");}
-@font-face{font-family:"Milford";src:url("fonts/MilfordBold.ttf");font-weight:bold;}
+@font-face{font-family:"Milford";src:url("fonts/Milford.woff");}
+@font-face{font-family:"Milford";src:url("fonts/MilfordBold.woff");font-weight:bold;}
 
 @font-face{font-family:"HelveticaNeue";src:url("fonts/HelveticaNeue.otf");}
 @font-face{font-family:"HelveticaNeue";src:url("fonts/HelveticaNeueBold.ttf");font-weight:bold;}
@@ -67,6 +67,7 @@ h1.title {
   text-align: center;
   float: right;
   box-sizing: border-box;
+  text-transform: uppercase;
   margin-top: 25px; }
 
 .score-container, .best-container, .moves-container {
@@ -75,7 +76,6 @@ h1.title {
   background: #bbada0;
   padding: 15px 25px;
   font-size: 25px;
-  font: HelveticaNeue, Arial, sans-serif; 
   height: 25px;
   line-height: 47px;
   font-weight: bold;
@@ -101,6 +101,7 @@ h1.title {
     line-height: 25px;
     font-weight: bold;
     z-index: 100;
+	font-family: HelveticaNeue, Arial, sans-serif; 
     -webkit-animation: move-up 600ms ease-in;
     -moz-animation: move-up 600ms ease-in;
     animation: move-up 600ms ease-in;
@@ -186,6 +187,7 @@ hr {
     bottom: 0;
     left: 0;
     background: rgba(238, 228, 218, 0.5);
+    text-transform: uppercase;
     z-index: 100;
     text-align: center;
     -webkit-animation: fade-in 800ms ease 1200ms;
